@@ -166,4 +166,8 @@ Eclipse is a little bit more complicated because the developer can run tests eit
 
 ![Running Eclipse launchers](doc/eclipse1.png)
 
-via the "Run Configurations..." menu point these launchers can be configured.
+This launchers can be configured by opening the configuration dialog via the menu point "Run Configurations...":
+
+![Gradle launcher configuration](doc/eclipse2.png)
+
+![JUnit launcher configuration](doc/eclipse3.png)
