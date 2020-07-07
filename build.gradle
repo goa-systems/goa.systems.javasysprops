@@ -19,8 +19,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    // systemProperty "my key 1", System.getProperty("my key 1")
-    // systemProperty "mykey2", System.getProperty("mykey2")
+    systemProperty "my key 1", System.getProperty("my key 1")
+    systemProperty "mykey2", System.getProperty("mykey2")
 }
 
 task prepareExternalTest(type: Copy, group: 'verification', description: 'Copys the offline JUnit runner to directory with compiled classes.') {
