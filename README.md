@@ -162,7 +162,7 @@ When configured correctly (via "Edit 'JavaSysPropsLibTest....'..." in the upper 
 
 To develop this project in Eclipse just import it as Gradle project. To do this you need the [Buildship plugin](https://projects.eclipse.org/projects/tools.buildship) for Eclipse.
 
-Eclipse is a little bit more complicated because the developer can run tests either as native JUnit tests within Eclipse of as Gradle-Tests by utilizing the Buildship plugin. For both cases a launcher file is placed in the folder "launchers" in this project. These launchers are preconfigured and can be executed in Eclipse like this:
+Eclipse is a little bit more complicated because the developer can run tests either as native JUnit tests within Eclipse or as Gradle-Tests by utilizing the Buildship plugin. For both cases a launcher file is placed in the folder "launchers" in this project. These launchers are preconfigured and can be executed in Eclipse like this:
 
 ![Running Eclipse launchers](doc/eclipse1.png)
 
@@ -171,3 +171,4 @@ This launchers can be configured by opening the configuration dialog via the men
 ![Gradle launcher configuration](doc/eclipse2.png)
 
 ![JUnit launcher configuration](doc/eclipse3.png)
+
