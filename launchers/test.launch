@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.buildship.core.launch.test.runconfiguration">
+    <listAttribute key="arguments"/>
+    <stringAttribute key="bad_container_name" value="/launcher"/>
+    <booleanAttribute key="build_scans_enabled" value="false"/>
+    <stringAttribute key="gradle_distribution" value="GRADLE_DISTRIBUTION(WRAPPER)"/>
+    <stringAttribute key="gradle_user_home" value=""/>
+    <stringAttribute key="java_home" value=""/>
+    <listAttribute key="jvm_arguments">
+        <listEntry value="-Dmy key 1=my val 1"/>
+        <listEntry value="-Dmykey2=myval2"/>
+    </listAttribute>
+    <booleanAttribute key="offline_mode" value="false"/>
+    <booleanAttribute key="override_workspace_settings" value="true"/>
+    <booleanAttribute key="show_console_view" value="true"/>
+    <booleanAttribute key="show_execution_view" value="true"/>
+    <listAttribute key="tests">
+        <listEntry value="javasysprops.JavaSysPropsLibTest#test"/>
+    </listAttribute>
+    <stringAttribute key="working_dir" value="${workspace_loc:/javasysprops}"/>
+</launchConfiguration>

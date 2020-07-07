@@ -1,0 +1,29 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+}
+
+configurations {
+	externalTestRun
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+    externalTestRun 'org.junit.platform:junit-platform-console-standalone:1.6.2'
+
+}
+
+test {
+    useJUnitPlatform()
+    // systemProperty "my key 1", System.getProperty("my key 1")
+    // systemProperty "mykey2", System.getProperty("mykey2")
+}
+
+task prepareExternalTest(type: Copy, group: 'verification', description: 'Copys the offline JUnit runner to directory with compiled classes.') {
+    into "${buildDir}/classes/java"
+    from configurations.externalTestRun
+}
